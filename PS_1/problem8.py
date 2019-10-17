@@ -40,8 +40,8 @@ def main():
   plt.plot(x, -(weight[0]/weight[1])*x - bias/weight[1], 'k', p1[0], p1[1], 'b^', p2[0], p2[1], 'b^', p3[0], p3[1], 'b*')
   plt.title('Decision boundary for initial weight of (1 0) and initial bias of 0.5')
   plt.grid()
-  plt.axhline(linewidth='1', color='r')
-  plt.axvline(linewidth='1', color='r')
+  plt.axhline(linewidth='0.5', color='r')
+  plt.axvline(linewidth='0.5', color='r')
   plt.show()
 
 

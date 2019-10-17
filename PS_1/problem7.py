@@ -39,8 +39,8 @@ def main():
     plt.xlabel('Input values')
     plt.ylabel('Logsig layer net output, value 1')
     plt.grid()
-    plt.axhline(linewidth='1', color='r')
-    plt.axvline(linewidth='1', color='r')
+    plt.axhline(linewidth='0.5', color='r')
+    plt.axvline(linewidth='0.5', color='r')
 
 
     #Print sigm_net_2
@@ -49,16 +49,16 @@ def main():
     plt.xlabel('Input values')
     plt.ylabel('Logsig layer net output, value 2')
     plt.grid()
-    plt.axhline(linewidth='1', color='r')
-    plt.axvline(linewidth='1', color='r')
+    plt.axhline(linewidth='0.5', color='r')
+    plt.axvline(linewidth='0.5', color='r')
 
     #Print lin_net
     plt.figure('PURELIN')
     plt.plot(input_vector_p, net_val_lin_layer, 'g', input_vector_p, output_lin_layer, 'k')
     plt.xlabel('Input values')
     plt.ylabel('Purelin layer net output')
-    plt.axhline(linewidth='1', color='r')
-    plt.axvline(linewidth='1', color='r')
+    plt.axhline(linewidth='0.5', color='r')
+    plt.axvline(linewidth='0.5', color='r')
     plt.grid()
 
     plt.show()
